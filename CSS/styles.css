@@ -161,7 +161,7 @@ h1, ul {
     }
 }
 
-li {
+li.Home {
   float: left;
 }
 
