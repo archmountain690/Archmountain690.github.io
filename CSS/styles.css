@@ -11,6 +11,7 @@ h1, ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-align: center;
   animation: bg-animation 25s linear infinite;
   padding: 30px;
 }
