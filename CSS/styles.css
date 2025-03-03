@@ -18,8 +18,9 @@ li a {
   display: block;
   color: rgb(60, 60, 60);
   text-align:left;
-  padding: 16px 16px;
-  text-decoration: none;
+  offset-position: center;
+  padding: 14px 16px;
+  text-decoration:wavy;
 }
 
 li a:hover {
