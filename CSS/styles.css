@@ -17,12 +17,11 @@ li {
 li a {
   display: block;
   color: rgb(60, 60, 60);
-  text-align: center;
+  text-align:left;
   padding: 16px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #ffffff;
 }
