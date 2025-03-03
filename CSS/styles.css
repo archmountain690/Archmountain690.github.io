@@ -22,6 +22,8 @@ li a {
   offset-position: center;
   padding: 14px 16px;
   text-decoration: wavy;
+  border-radius: 25px;
+
 }
 
 li a:hover {
