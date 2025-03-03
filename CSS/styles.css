@@ -12,12 +12,9 @@ h2, h3{
   color: white;
 }
 
-p{
-  align-content: center;
-}
-
 body{
   background-color: black;
+  text-align: center;
 }
 
 h1, ul {
