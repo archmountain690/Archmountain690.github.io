@@ -1,12 +1,11 @@
 *{
-  color: #871585;
+  color: #000000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
   font-weight: bold;
   font-size: 80;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 body{
