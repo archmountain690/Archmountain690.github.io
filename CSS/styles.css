@@ -1,5 +1,5 @@
 *{
-    color: rgb(135, 21, 133);
+    color: #871585;
 }
 
 ul {
@@ -8,6 +8,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #b82598;
+  offset-anchor: LEFT;
 }
 
 li {
