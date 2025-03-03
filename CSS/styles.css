@@ -10,7 +10,10 @@ h1 {
 
 h2, h3{
   color: white;
-  padding-left: 50px;
+}
+
+p{
+  text-align: center;
 }
 
 body{
