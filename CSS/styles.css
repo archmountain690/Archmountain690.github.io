@@ -23,9 +23,10 @@ li a {
   padding: 14px 16px;
   text-decoration: wavy;
   border-radius: 25px;
+  border-color: black;
 
 }
 
 li a:hover {
-  background-color: #ff00f2;
+  background-color: #ffffff;
 }
