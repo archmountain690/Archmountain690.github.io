@@ -1,0 +1,242 @@
+*{
+    color: white;
+}
+
+h1, h2 {
+    color: coral;
+}
+
+.txt, .top, .bottom, ol > li, ul > li, tr, th, td{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 60px;
+    animation: bg-animation 25s linear infinite;
+}
+
+.middle{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 60px;
+    border-radius: 25px;
+    animation: bg-animation 25s linear infinite;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 25px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: teal;        /* color of the tracking area */
+    border-radius: 15px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: teal;    /* color of the scroll thumb */
+    border-radius: 15px;       /* roundness of the scroll thumb */
+    border: 5px dashed coral;  /* creates padding around scroll thumb */
+}
+
+a.middle{
+    color: white;
+}
+
+#Password, #ConfirmPassword{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    animation: bg-animation 25s linear infinite;
+}
+
+html{
+    filter: blur(10px) sepia(0);
+    -o-filter: blur(10px) sepia(0);
+    -ms-filter: blur(10px) sepia(0);
+    -moz-filter: blur(10px) sepia(0) ;
+    -webkit-filter: blur(10px) sepia(0) ;
+    transition: 2s;
+    -webkit-transition: 2s
+}
+html:hover{
+    filter: blur(0px) sepia(0) ;
+    -o-filter: blur(0px) sepia(0) ;
+    -ms-filter: blur(0px) sepia(0);
+    -moz-filter: blur(0px) sepia(0);
+    -webkit-filter: blur(0px) sepia(0) ;
+}
+
+@-webkit-keyframes bg-animation {
+    0% {
+        background-color: red;
+      }
+      5% {
+        background-color: orange;
+      }
+      10% {
+        background-color: yellow;
+      }
+      15% {
+        background-color: greenyellow;
+      }
+      20% {
+        background-color: green;
+      }
+      25% {
+        background-color: turquoise;
+      }
+      30% {
+        background-color: cyan;
+      }
+      35% {
+        background-color: dodgerblue;
+      }
+      40% {
+        background-color: blue;
+      }
+      45% {
+        background-color: indigo;
+      }
+      50% {
+        background-color: violet;
+      }
+      55% {
+        background-color: magenta;
+      }
+      60% {
+        background-color: deeppink;
+      }
+      65% {
+        background-color: crimson;
+      }
+      70% {
+        background-color: darkorange;
+      }
+      75% {
+        background-color: coral;
+      }
+      80% {
+        background-color: gold;
+      }
+      85% {
+        background-color: chartreuse;
+      }
+      90% {
+        background-color: orchid;
+      }
+      95% {
+        background-color: salmon;
+      }
+      100% {
+        background-color: red;
+    }
+}
+
+@keyframes bg-animation {
+    0% {
+        background-color: red;
+      }
+      5% {
+        background-color: orange;
+      }
+      10% {
+        background-color: yellow;
+      }
+      15% {
+        background-color: greenyellow;
+      }
+      20% {
+        background-color: green;
+      }
+      25% {
+        background-color: turquoise;
+      }
+      30% {
+        background-color: cyan;
+      }
+      35% {
+        background-color: dodgerblue;
+      }
+      40% {
+        background-color: blue;
+      }
+      45% {
+        background-color: indigo;
+      }
+      50% {
+        background-color: violet;
+      }
+      55% {
+        background-color: magenta;
+      }
+      60% {
+        background-color: deeppink;
+      }
+      65% {
+        background-color: crimson;
+      }
+      70% {
+        background-color: darkorange;
+      }
+      75% {
+        background-color: coral;
+      }
+      80% {
+        background-color: gold;
+      }
+      85% {
+        background-color: chartreuse;
+      }
+      90% {
+        background-color: orchid;
+      }
+      95% {
+        background-color: salmon;
+      }
+      100% {
+        background-color: red;
+      }
+}
+
+#file{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 60px;
+    border-radius: 25px;
+    animation: bg-animation 25s linear infinite;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+}
+
+h1 , h2 {
+    background-color: teal;
+    font-family: fantasy;
+    font-size: 90px;
+    border-left: 5px dashed coral;
+    border-right: 5px dashed coral;
+    border-top: 5px dashed coral;
+    border-bottom: 5px dashed coral;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}  
+
+h3 {
+    text-shadow: 0 0 10px coral, 0 0 20px coral, 0 0 30px coral;
+    transition: 1s ease-in-out;
+  }
+  
+h3:hover {
+    text-shadow: 0 0 20px teal, 0 0 30px teal, 0 0 40px teal;
+  }
