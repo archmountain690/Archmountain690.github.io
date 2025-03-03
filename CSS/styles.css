@@ -26,6 +26,7 @@ h1, ul {
   overflow: hidden;
   text-align: center;
   border: 20px;
+  border-color:  red;
   animation: bg-animation 25s linear infinite;
   padding: 30px;
 }
