@@ -2,6 +2,12 @@
   color: #871585;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 260;
+  
+}
+
 body{
   background-color: black;
 }
@@ -12,7 +18,6 @@ h1, ul {
   padding: 0;
   overflow: hidden;
   text-align: center;
-  font-size: x-large;
   animation: bg-animation 25s linear infinite;
   padding: 30px;
 }
