@@ -158,6 +158,7 @@ li a {
   border-radius: 25px;
   border-color: black;
   border-width: 5px;
+  animation: bg-animation 25s linear infinite;
 
 }
 
