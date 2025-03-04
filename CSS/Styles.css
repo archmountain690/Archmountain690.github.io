@@ -9,23 +9,23 @@ h1 {
 }
 
 p, h2, h3{
-  color: white;
+  color: #ffffff;
 }
 
 body{
-  background-color: rgb(58, 58, 58);
+  background-color: #3a3a3a;
   text-align: center;
   font-size: 30;
   font-weight: 100;
 }
 
 #Clock{
-  font-size: 50;
+  font-size: 30;
   font-weight: 1000;
   padding: 30px 40px;
   border-radius: 15px;
-  border: 5px solid rgb(0, 0, 0);
-  color: aqua;
+  border: 5px solid #000000;
+  color: #000000;
 }
 
 h1, ul {
@@ -35,7 +35,7 @@ h1, ul {
   overflow: hidden;
   text-align: center;
   border: 20px;
-  border-color:  red;
+  border-color:  #ff0000;
   animation: bg-animation 25s linear infinite;
   padding: 30px;
 }
@@ -193,7 +193,7 @@ li a {
   padding: 14px 16px;
   text-decoration: wavy;
   border-radius: 25px;
-  border-color: black;
+  border-color: #000000;
   border-width: 5px;
 
 }
