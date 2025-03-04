@@ -177,6 +177,10 @@ li.Home {
   font-size: 50;
 }
 
+li.Clock {
+  float: left;
+}
+
 li.LISU{
   float: right;
 }
