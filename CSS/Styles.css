@@ -64,6 +64,7 @@ body{
   animation: bg-animation 25s linear infinite;
   -webkit-transition: .4s;
   transition: .4s;
+  border: #000000 solid 5px;
 }
 
 input:checked + .slider {
