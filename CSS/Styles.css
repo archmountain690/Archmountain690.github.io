@@ -50,6 +50,7 @@ body{
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
+  animation: bg-animation 25s linear infinite;
 }
 
 .slider:before {
@@ -59,13 +60,13 @@ body{
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  animation: bg-animation 25s linear infinite;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #000000;
 }
 
 input:focus + .slider {
