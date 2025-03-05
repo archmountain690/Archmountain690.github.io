@@ -96,6 +96,7 @@ input:checked + .slider:before {
 }
 
 #Clock{
+  position: relative;
   font-size: 30;
   font-weight: 1000;
   padding: 12px 30px;
@@ -103,6 +104,7 @@ input:checked + .slider:before {
   border-radius: 25px;
   border: 6px solid #000000;
   color: #000000;
+  left: -10px;
 }
 
 h1, ul {
@@ -113,8 +115,8 @@ h1, ul {
   border: 20px;
   border-color:  #ff0000;
   animation: bg-animation 55s linear infinite;
-  padding: 30px;
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   margin-top: -10;
 }
 
@@ -307,8 +309,11 @@ li.Clock {
 }
 
 li.LISU{
+  position: relative;
   float: right;
   padding-left: 20px;
+  padding-right: 20px;
+  top: 20px;
 }
 
 li a {
