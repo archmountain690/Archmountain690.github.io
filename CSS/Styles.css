@@ -1,27 +1,21 @@
-*{
-  color: #000000;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 h1 {
   font-weight: bold;
   font-size: 80;
-}
-
-p, h2, h3{
-  color: #ffffff;
+  color: #000000;
 }
 
 body{
-  background-color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #c2c2c2;
   color: #000000;
   text-align: center;
   font-size: 30;
   font-weight: 100;
+  margin: -10;
 }
 
 .dark-mode {
-  background-color: #000000;
+  background-color: #343434;
   color: #ffffff;
 }
 
@@ -39,34 +33,43 @@ body{
   height: 0;
 }
 
+lable.switch{
+  position: relative;
+  animation: bg-animation 55s linear infinite;
+  padding: 20px;
+  text-align: center; 
+  margin-right: 10;
+}
+
 /* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 0;
+  height: 48px;
+  width: 96px;
+  top: -20;
+  left: -110;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-  animation: bg-animation 25s linear infinite;
-  border: #000000 solid 5px;
-  float: left;
+  -webkit-transition: .5s;
+  transition: .5s;
+  animation: bg-animation 55s linear infinite;
+  border: #000000 solid 2px;
+  font-size: 14;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: #888888;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border: #000000 solid 5px;
-  float: left;
+  color: #000000;
+  content: "Dark Mode";
+  height: 40px;
+  width: 40px;
+  left: 1px;
+  bottom: 2px;
+  animation: bg-animation 55s linear infinite;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: #000000 solid 2px;
 }
 
 input:checked + .slider {
@@ -78,9 +81,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
 }
 
 /* Rounded sliders */
@@ -96,6 +99,7 @@ input:checked + .slider:before {
   font-size: 30;
   font-weight: 1000;
   padding: 12px 30px;
+  width: 100px;
   border-radius: 25px;
   border: 6px solid #000000;
   color: #000000;
@@ -109,13 +113,13 @@ h1, ul {
   text-align: center;
   border: 20px;
   border-color:  #ff0000;
-  animation: bg-animation 25s linear infinite;
+  animation: bg-animation 55s linear infinite;
   padding: 30px;
 }
 
 /* Dropdown Button */
 .dropbtn {
-  animation: bg-animation 25s linear infinite;
+  animation: bg-animation 55s linear infinite;
   color: rgb(0, 0, 0);
   padding: 51px;
   font-size: 30px;
@@ -148,13 +152,19 @@ h1, ul {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
 
 @-webkit-keyframes bg-animation {
   0% {
@@ -300,19 +310,18 @@ li.Clock {
 
 li.LISU{
   float: right;
+  padding-left: 5px;
 }
 
 li a {
   display: inline;
-  color: rgb(60, 60, 60);
+  color: #000000;
   text-align: left;
   offset-position: center;
   padding: 14px 16px;
   text-decoration: wavy;
   border-radius: 25px;
-  border-color: #000000;
   border-width: 5px;
-
 }
 
 li a:hover {
