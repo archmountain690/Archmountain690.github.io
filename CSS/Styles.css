@@ -43,7 +43,9 @@ h1, ul {
 /* Dropdown Button */
 .dropbtn {
   animation: bg-animation 25s linear infinite;
-  color: white;
+  color: rgb(0, 0, 0);
+  float: left;
+  padding-right: 300px;
   padding: 30px;
   font-size: 30px;
   border: none;
