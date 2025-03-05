@@ -5,6 +5,7 @@
 
 	<body>
 		<h1> Please Login </h1>
+		
 		<div class="dropdown">
             <button class="dropbtn">☰</button>
             <div class="dropdown-content">
@@ -13,13 +14,20 @@
               <a href="#">Link 3</a>
             </div>
           </div>
-        <ul>
+          
+          
+
         <ul>
             <li class = "Home"><a href="HomePage.html">🏠</a></li>
             <li class = "Clock"><div id = "Clock"></div></li>
             <li class = "LISU"><a href="Login.html">LOGIN</a></li>
             <li class = "LISU"><a href="Registration.html">SIGNUP</a></li>
+            <li class = DarkMode><label class="switch">
+                <input type="checkbox" onclick="DarkMode()">
+                <span class="slider round"></span>
+              </label> </li>
           </ul>
+
 		<form action="login.php" method="get">
 			<h3 class="txt">Email:</h3>
 			<input class="middle" type="email" name="email" required="required"> <br> 
@@ -31,5 +39,6 @@
 	</body>
 	<link href="../CSS/Styles.css" type="text/css" rel = "stylesheet"/>
 	<script src="../JavaScript/clock.js"></script>
+	<script src="../JavaScript/DarkMode.js"></script>
 </html>
 
