@@ -42,10 +42,10 @@ h1, ul {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  animation: bg-animation 25s linear infinite;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 30px;
+  font-size: 30px;
   border: none;
 }
 
