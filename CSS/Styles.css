@@ -2,6 +2,7 @@ h1 {
   font-weight: bold;
   font-size: 80;
   color: #000000;
+  margin-bottom: -10;
 }
 
 body{
@@ -113,6 +114,8 @@ h1, ul {
   border-color:  #ff0000;
   animation: bg-animation 55s linear infinite;
   padding: 30px;
+  padding-top: 50px;
+  margin-top: -10;
 }
 
 /* Dropdown Button */
