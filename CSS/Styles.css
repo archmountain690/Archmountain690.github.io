@@ -15,10 +15,12 @@ body{
   margin: -10;
 }
 
-.dark-mode {
-  background-color: #343434;
-  color: #ffffff;
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: #343434;
+    color: #ffffff;
 }
+  }
 
 .switch {
   position: relative;
