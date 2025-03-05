@@ -52,6 +52,7 @@ body{
   transition: .4s;
   animation: bg-animation 25s linear infinite;
   border: #000000 solid 5px;
+  float: left;
 }
 
 .slider:before {
