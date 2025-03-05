@@ -44,7 +44,7 @@ h1, ul {
 .dropbtn {
   animation: bg-animation 25s linear infinite;
   color: rgb(0, 0, 0);
-  padding: 53px;
+  padding: 51px;
   font-size: 30px;
   border: none;
   margin: -10;
