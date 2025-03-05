@@ -54,7 +54,6 @@ h1, ul {
 .dropdown {
   position: relative;
   float: left;
-  padding-right: 300px;
 }
 
 /* Dropdown Content (Hidden by Default) */
