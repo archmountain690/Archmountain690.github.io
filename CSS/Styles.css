@@ -62,10 +62,11 @@ body{
   width: 26px;
   left: 4px;
   bottom: 4px;
-  animation: bg-animation 25s linear infinite;
+  background-color: #888888;
   -webkit-transition: .4s;
   transition: .4s;
   border: #000000 solid 5px;
+  float: left;
 }
 
 input:checked + .slider {
