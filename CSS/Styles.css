@@ -54,7 +54,6 @@ h1, ul {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  float: left;
   margin: -10;
   padding-left: 25px;
 }
