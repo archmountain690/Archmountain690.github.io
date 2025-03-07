@@ -1,1 +1,1 @@
-window.open("../HTML/HomePage.html");
+location.replace("HTML/HomePage.html")
