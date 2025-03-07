@@ -1,0 +1,1 @@
+window.open("../HTML/HomePage.html");
